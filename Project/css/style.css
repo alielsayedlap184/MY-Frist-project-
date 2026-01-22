@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/download3.jpg);
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(133, 40, 40,0.85);
+
+}
+.move img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate-reverse ;
+}
+@keyframes move1{
+    100%{
+       transform: scale(2);
+    }
+}
+.nega{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120px;
+}
+.love{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 140px;
+}
+.name{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 140px;
+}
+.edcontainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+}
+.ques{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#6B3E26;
+    font-size: 140px;
+}
+.kalam{
+    width: 92vw;
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#5C3A4D;
+    font-size: 30px;
+    text-shadow: 10px 10px 10px #5b3349;
+}
+.final{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFD6E7;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    font-size: 50px;
+
+}
+.thcontainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+.vidf{
+    display: block;
+    margin: 30px auto;
+}
+.endo{
+     position: absolute;
+    top: 280%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cc105e;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    font-size: 100px;
+}
+.endoo{
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #90204f;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    font-size: 30px;
+}
